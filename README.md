@@ -22,20 +22,21 @@ Este projeto é um exemplo simples de aplicação web utilizando ASP.NET Core MV
 ## 🔧 Como Executar
 
 1. Clone o repositório:
-   ```bash
+   
    git clone https://github.com/Kytsu01/MVCMovies.git
 
-2. Entre no Diretório onde você clonou o projeto utilizando o Git Bash ou o CMD com o Git instalado na sua máquina.
+2. Entre no Diretório ".../MVCMovies/MVCMovies" utilizando o terminal da sua máquina com o Git e o .Net 9.0 instalado na sua máquina.
 
 3. Execute os seguintes comandos:
-    dotnet restore
 
-    dotnet ef update database **(Caso de errado este comando siga o passo 3.1, depois execute esse comando novamente)**
+   dotnet restore
+   
+   dotnet ef update database **(Caso de errado este comando siga o passo 3.1, depois execute esse comando novamente)**
         3.1 Execute o comando **dotnet tool install --global dotnet-ef** depois rode novamente o comando **dotnet ef update database**
 
    dotnet run
 
-4. Abriu uma janela do terminal na sua máquina, veja qual é a porta sendo usado no localhost e pesquisa no google da sua máquina:
+5. Abriu uma janela do terminal na sua máquina, veja qual é a porta sendo usado no localhost e pesquisa no google da sua máquina:
        **Imagem de demonstração:**
                <img width="643" height="162" alt="image" src="https://github.com/user-attachments/assets/350478d5-326f-4c2d-ba9c-fa79e3ed4c61" />
 
