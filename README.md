@@ -1,6 +1,6 @@
 # 🎬 Projeto CRUD de Filmes – ASP.NET Core MVC
 
-Este projeto é um exemplo simples de aplicação web utilizando ASP.NET Core MVC. Ele implementa as operações básicas de **CRUD (Create, Read, Update, Delete)** para gerenciamento de filmes, com foco em aprendizado de demonstrar a estrutura básica de um projeto MVC.
+Este projeto é um exemplo simples de aplicação web utilizando ASP.NET Core MVC. Ele implementa as operações básicas de **CRUD (Create, Read, Update, Delete)** para gerenciamento de filmes, com foco em aprendizado e demonstrar a estrutura básica de um projeto MVC.
 
 ## 🚀 Funcionalidades
 
@@ -21,22 +21,35 @@ Este projeto é um exemplo simples de aplicação web utilizando ASP.NET Core MV
 
 ## 🔧 Como Executar
 
-1. Clone o repositório:
-   
-   git clone https://github.com/Kytsu01/MVCMovies.git
+1. Clone o repositório utilizando o prompt de comando com o Git e o .Net 9.0 instalado na sua máquina:
+      ```bash
+      git clone https://github.com/Kytsu01/MVCMovies.git
 
-2. Entre no Diretório ".../MVCMovies/MVCMovies" utilizando o terminal da sua máquina com o Git e o .Net 9.0 instalado na sua máquina.
+2. Entre no Diretório ".../MVCMovies/MVCMovies".
 
-3. Execute os seguintes comandos:
+3. Execute o seguinte comando:
 
-   dotnet restore
-   
-   dotnet ef update database **(Caso de errado este comando siga o passo 3.1, depois execute esse comando novamente)**
-        3.1 Execute o comando **dotnet tool install --global dotnet-ef** depois rode novamente o comando **dotnet ef update database**
+      ```bash   
+      dotnet ef --version
 
-   dotnet run
+Caso funcione você deve ver algo como:
 
-5. Abriu uma janela do terminal na sua máquina, veja qual é a porta sendo usado no localhost e pesquisa no google da sua máquina:
+      Entity Framework Core .NET Command-line Tools
+      9.0.8
+
+Caso não funcione, execute o seguinte comando:
+
+      dotnet tool install --global dotnet -ef
+
+4. Certo, com tudo configurado execute os seguintes comandos agora:
+
+         dotnet restore
+         dotnet ef database update
+         dotnet run
+
+6. Abriu uma janela do terminal na sua máquina, veja qual é a porta sendo usado no localhost e pesquisa no seu navegador de preferência:
        **Imagem de demonstração:**
                <img width="643" height="162" alt="image" src="https://github.com/user-attachments/assets/350478d5-326f-4c2d-ba9c-fa79e3ed4c61" />
+      <br>
+      Neste caso, a porta sendo utilizada era, 5165, então deveriamos pesquisas *localhost:5165*.
 
