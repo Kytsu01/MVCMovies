@@ -47,10 +47,7 @@ Este projeto é um exemplo simples de aplicação web utilizando ASP.NET Core MV
        dotnet ef database update
        dotnet run
 
-6. Abriu uma janela do terminal na sua máquina, veja qual é a porta sendo usado no localhost e pesquisa no seu navegador de preferência:
-       **Imagem de demonstração:**
-               <img width="643" height="162" alt="image" src="https://github.com/user-attachments/assets/350478d5-326f-4c2d-ba9c-fa79e3ed4c61" />
-      <br>
-      <br>
-      Neste caso, a porta sendo utilizada era, 5165, então deveriamos pesquisar *http://localhost:5165*.
+6. Abriu uma janela do terminal na sua máquina, após isso pesquise o seguinte no seu navegador de preferência:
+
+         http://localhost:5165
 
